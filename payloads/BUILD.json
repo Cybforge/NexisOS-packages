@@ -1,0 +1,25 @@
+{
+  "fastfetch": {
+    "sha256": "429725dd402682c2532765176756c4e73e4c3071179eacf32769cc341a4d8aab",
+    "size": 2559904,
+    "elf_osabi": 3
+  },
+  "bash": {
+    "sha256": "e03eff4445ca31ed05837aea07c8a84eb6706c00250d4f876116c50d698fd8ba",
+    "size": 4104080,
+    "elf_osabi": 3
+  },
+  "busybox": {
+    "sha256": "b5554a8d1ff87a8992d57f386a5b1207b7f68e4a25bd0a769f32e4bd105fd2bf",
+    "size": 321792,
+    "elf_osabi": 3
+  },
+  "neofetch": {
+    "upstream_sha256": "2a272bbaa1275f21835fd3258fb8032ccdc98348e6ccb9cf58acacd366340170",
+    "port_sha256": "0e8c03c178e67cb90925dc239eedb7c965eb4ed1862ccf9c925d9d221e74090f",
+    "changes": [
+      "Bash interpreter path",
+      "NexisOS uses the proc/os-release backend"
+    ]
+  }
+}

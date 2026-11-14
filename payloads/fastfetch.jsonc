@@ -1,0 +1,57 @@
+{
+  "logo": {
+    "type": "file",
+    "source": "/usr/share/nexis/brand/fastfetch.txt",
+    "color": {
+      "1": "blue",
+      "2": "cyan",
+      "3": "magenta"
+    },
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 4
+    },
+    "printRemaining": true
+  },
+  "display": {
+    "color": {
+      "keys": "blue",
+      "title": "cyan"
+    },
+    "key": {
+      "width": 11,
+      "type": "string"
+    },
+    "brightColor": true,
+    "hideCursor": false,
+    "disableLinewrap": false
+  },
+  "general": {
+    "multithreading": false
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "kernel",
+    "uptime",
+    {
+      "type": "custom",
+      "key": "Desktop",
+      "format": "NexisOS Desktop"
+    },
+    "shell",
+    "terminal",
+    "cpu",
+    "memory",
+    "break",
+    {
+      "type": "colors",
+      "symbol": "background",
+      "block": {
+        "width": 3
+      }
+    }
+  ]
+}
